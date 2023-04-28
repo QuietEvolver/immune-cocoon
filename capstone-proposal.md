@@ -4,6 +4,38 @@
 
 
 GIT LOG: 
+nothing added to commit but untracked files present (use "git add" to track)
+Veras-MacBook-Pro-3:immune-cocoon veraweikel$ git log
+commit 34b74577ebf563a638df3af11d8e51840eb91ef2 (HEAD -> react)
+Author: Vera Weikel <vera.weikel@gmail.com>
+Date:   Fri Apr 28 14:09:50 2023 -0700
+
+    Add log.
+
+commit 77adb8b8ed31c294e6fcb953ace833a1a547150b
+Author: Vera Weikel <vera.weikel@gmail.com>
+Date:   Fri Apr 28 13:47:51 2023 -0700
+
+    Add files and attempting to log in to user accounts to use api's.
+
+commit 7d50aa06f027a1efa6ce8591f8701c8b0930cff6
+Author: Vera Weikel <vera.weikel@gmail.com>
+Date:   Fri Apr 28 13:25:37 2023 -0700
+
+    Add verbiage to proposal/log. Please ref git logs.
+
+commit 3c73534a0b491adb751a56a5c3ec833d396a4a75
+Author: Vera Weikel <vera.weikel@gmail.com>
+Date:   Fri Apr 28 12:54:47 2023 -0700
+
+    Cap research and new md while trying to submit repo; Failing submission on Epicenter.
+
+commit 23979fe097d6ab6e7263d798b3cbef6e01c93faa
+Author: Vera Weikel <vera.weikel@gmail.com>
+Date:   Fri Apr 28 12:14:51 2023 -0700
+
+    Researching cap react & c# connections.
+
 commit b98559bbaece1c4e59fb82139862c9322be384bc (HEAD -> react)
 Author: Vera Weikel <vera.weikel@gmail.com>
 Date:   Fri Apr 28 11:51:47 2023 -0700
