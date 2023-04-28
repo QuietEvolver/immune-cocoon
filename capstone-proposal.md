@@ -6,7 +6,12 @@
 * 1:20: implement react-spring library in sample project
 
 GIT LOG: 
-git log
+commit b98559bbaece1c4e59fb82139862c9322be384bc (HEAD -> react)
+Author: Vera Weikel <vera.weikel@gmail.com>
+Date:   Fri Apr 28 11:51:47 2023 -0700
+
+    Add cap-proposal.md log while researching react w/a c# engine.
+
 commit 316f3afc6c809d764c82de23b40f6f0a71d65540 (HEAD -> react)
 Author: Vera Weikel <vera.weikel@gmail.com>
 Date:   Fri Apr 28 10:41:49 2023 -0700
