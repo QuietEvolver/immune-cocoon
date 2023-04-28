@@ -1,5 +1,5 @@
 ### Research & Planning Log
-#### Friday, 08/13
+#### Friday, 04/28/2023
 * 8 hours of work logged onto git log.  
 
 
