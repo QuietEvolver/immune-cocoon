@@ -1,9 +1,7 @@
 ### Research & Planning Log
 #### Friday, 08/13
-* 8:20: prioritize to-dos
-* 8:40: research libraries for animations
-* 9:30: try out react-spring library, review docs + examples
-* 1:20: implement react-spring library in sample project
+* 8 hours of work logged onto git log.  
+
 
 GIT LOG: 
 commit b98559bbaece1c4e59fb82139862c9322be384bc (HEAD -> react)
@@ -53,3 +51,37 @@ Author: Vera Weikel <vera.weikel@gmail.com>
 Date:   Wed Apr 26 17:04:32 2023 -0700
 
     Add .gitignore
+
+=============================
+
+## Name of Student:
+Vera Weikel 
+
+## Name of Project:
+Immune Cocoon
+
+## Project's Purpose or Goal: (What will it do for users?)
+A client allergy tracker
+
+What: An allergy tracker with a database
+Who: for clients in your organization
+Where: Orgz.
+When: upon discovery,  onboarding client org, onboarding new client individual
+Why: to protect agency of individual and organization
+
+## List the absolute minimum features the project requires to meet this purpose or goal: 
+React with CRUD
+
+## What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
+
+React, Javascript, API
+
+## If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
+Splash page with Threejs
+
+## What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+Additional 3js npm package
+
+## Is there anything else you'd like your instructor to know?
+Not at this time.
+
