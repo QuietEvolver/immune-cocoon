@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+const express = require("express");
+const app = express();
+const bodyParser = require('body-parser');
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// body parser configuration
+app.use(bodyParser.json());
+  app.use(bodyParser.urlencoded({ extended: true }));
 
-export default App;
+app.get("/", (request, response, next) => {
+  response.json({ message: "Hey! This is your server response!" });
+  next();
+});
+
+
+module.exports = app;
