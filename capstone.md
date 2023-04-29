@@ -29,3 +29,14 @@ Additional 3js npm package
 ## Is there anything else you'd like your instructor to know?
 Not at this time.
 
+# To Do's 
+
+* Build a basic CRUD
+* Hit my own API
+
+_Future build out_
+Authentication
+Heroku
+DB
+TPA: API - referencing specifically entered diseases (maybe API can pull from and populate dropdown for clients to choose from &/|| reference thier entered disease which whill aim to ping the tpa data (entereredInput).toLower())
+
