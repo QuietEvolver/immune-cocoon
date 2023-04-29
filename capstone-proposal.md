@@ -4,8 +4,13 @@
 
 
 GIT LOG: 
-nothing added to commit but untracked files present (use "git add" to track)
-Veras-MacBook-Pro-3:immune-cocoon veraweikel$ git log
+
+commit dfa22ebf5d31ad614b8009410df73e87b7d78b80 (HEAD -> react)
+Author: Vera Weikel <vera.weikel@gmail.com>
+Date:   Fri Apr 28 16:40:39 2023 -0700
+
+    Update cap log.
+
 commit 34b74577ebf563a638df3af11d8e51840eb91ef2 (HEAD -> react)
 Author: Vera Weikel <vera.weikel@gmail.com>
 Date:   Fri Apr 28 14:09:50 2023 -0700
