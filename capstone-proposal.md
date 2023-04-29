@@ -2,7 +2,7 @@
 #### Friday, 04/28/2023
 * 8 hours of work logged onto git log.  
 
-
+![pic](IMG_3849.jpg "IMG_3849")
 GIT LOG: 
 
 commit dfa22ebf5d31ad614b8009410df73e87b7d78b80 (HEAD -> react)
