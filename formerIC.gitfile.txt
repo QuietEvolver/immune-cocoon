@@ -1,0 +1,31 @@
+0000000000000000000000000000000000000000 b428d7def44f892a288627652071d90fbb835d67 Vera Weikel <vera.weikel@gmail.com> 1682553872 -0700	commit (initial): Add .gitignore
+b428d7def44f892a288627652071d90fbb835d67 382e9667b3d9382c618ab344c371b30648fdbd6c Vera Weikel <vera.weikel@gmail.com> 1682553971 -0700	commit: Add README.
+382e9667b3d9382c618ab344c371b30648fdbd6c 382e9667b3d9382c618ab344c371b30648fdbd6c Vera Weikel <vera.weikel@gmail.com> 1682694705 -0700	checkout: moving from main to react
+382e9667b3d9382c618ab344c371b30648fdbd6c 0de45c7f7d777edbe4a89bdb4a704ccb48373c31 Vera Weikel <vera.weikel@gmail.com> 1682694767 -0700	commit: Add research/mock-up/brainstorm log.
+0de45c7f7d777edbe4a89bdb4a704ccb48373c31 8e998fe40a2437897e5d912b5b760e3c5480a55f Vera Weikel <vera.weikel@gmail.com> 1682695962 -0700	commit: Add research/mock-up/brainstorm log.
+8e998fe40a2437897e5d912b5b760e3c5480a55f 73684763695f0a3ac0cbb87bf5dcffa86e00d487 Vera Weikel <vera.weikel@gmail.com> 1682698205 -0700	commit: Add log; hand drawn pics to come.
+73684763695f0a3ac0cbb87bf5dcffa86e00d487 718e47a0140517589f9385dfe31f0f1221eabbf5 Vera Weikel <vera.weikel@gmail.com> 1682700659 -0700	commit: Add files.
+718e47a0140517589f9385dfe31f0f1221eabbf5 316f3afc6c809d764c82de23b40f6f0a71d65540 Vera Weikel <vera.weikel@gmail.com> 1682703709 -0700	commit: Add mockpic and Readme.
+316f3afc6c809d764c82de23b40f6f0a71d65540 b98559bbaece1c4e59fb82139862c9322be384bc Vera Weikel <vera.weikel@gmail.com> 1682707907 -0700	commit: Add cap-proposal.md log.
+b98559bbaece1c4e59fb82139862c9322be384bc 12f1460aee7e5787fbae7bec0e36893dc6dbf520 Vera Weikel <vera.weikel@gmail.com> 1682708074 -0700	commit (amend): Add cap-proposal.md log while researching react w/a c# engine.
+12f1460aee7e5787fbae7bec0e36893dc6dbf520 23979fe097d6ab6e7263d798b3cbef6e01c93faa Vera Weikel <vera.weikel@gmail.com> 1682709291 -0700	commit: Researching cap react & c# connections.
+23979fe097d6ab6e7263d798b3cbef6e01c93faa 3c73534a0b491adb751a56a5c3ec833d396a4a75 Vera Weikel <vera.weikel@gmail.com> 1682711687 -0700	commit: Cap research and new md while trying to submit repo; Failing submission on Epicenter.
+3c73534a0b491adb751a56a5c3ec833d396a4a75 7d50aa06f027a1efa6ce8591f8701c8b0930cff6 Vera Weikel <vera.weikel@gmail.com> 1682713537 -0700	commit: Add verbiage to proposal/log. Please ref git logs.
+7d50aa06f027a1efa6ce8591f8701c8b0930cff6 77adb8b8ed31c294e6fcb953ace833a1a547150b Vera Weikel <vera.weikel@gmail.com> 1682714871 -0700	commit: Add files and attempting to log in to user accounts to use api's.
+77adb8b8ed31c294e6fcb953ace833a1a547150b 34b74577ebf563a638df3af11d8e51840eb91ef2 Vera Weikel <vera.weikel@gmail.com> 1682716190 -0700	commit: Add log.
+34b74577ebf563a638df3af11d8e51840eb91ef2 dfa22ebf5d31ad614b8009410df73e87b7d78b80 Vera Weikel <vera.weikel@gmail.com> 1682725239 -0700	commit: Update cap log.
+dfa22ebf5d31ad614b8009410df73e87b7d78b80 cfbd152ec5dcac0f1ae3b02a03c959bba97ca371 Vera Weikel <vera.weikel@gmail.com> 1682727016 -0700	commit: Update capdstone log.
+cfbd152ec5dcac0f1ae3b02a03c959bba97ca371 92a97fde501c783c756270778757a84dea7c44d3 Vera Weikel <vera.weikel@gmail.com> 1682728113 -0700	commit: Add mock to capstone proposal.
+92a97fde501c783c756270778757a84dea7c44d3 918627ce26288684e43ea00f7c069d492afed00e Vera Weikel <vera.weikel@gmail.com> 1682731177 -0700	commit: Add pic link to md.
+918627ce26288684e43ea00f7c069d492afed00e 2337db80c3a0742a565c50a9d3a2f1dc167a6c88 Vera Weikel <vera.weikel@gmail.com> 1682733790 -0700	commit: Add brainstorm details to capstone.md.
+2337db80c3a0742a565c50a9d3a2f1dc167a6c88 825688c9f4639d30dcffd172a8e55ea88e392306 Vera Weikel <vera.weikel@gmail.com> 1682737285 -0700	commit: Updates to react files.
+825688c9f4639d30dcffd172a8e55ea88e392306 05080f0ba2a2987561f877cc2d9903d346c90bdc Vera Weikel <vera.weikel@gmail.com> 1682738575 -0700	commit: created mongo db - aws - iuser/ cluster/ conmection with nodejs on Mongogo Atlas db free tier
+05080f0ba2a2987561f877cc2d9903d346c90bdc 382e9667b3d9382c618ab344c371b30648fdbd6c Vera Weikel <vera.weikel@gmail.com> 1682738614 -0700	checkout: moving from react to main
+382e9667b3d9382c618ab344c371b30648fdbd6c 05080f0ba2a2987561f877cc2d9903d346c90bdc Vera Weikel <vera.weikel@gmail.com> 1682738622 -0700	merge react: Fast-forward
+05080f0ba2a2987561f877cc2d9903d346c90bdc 6d7e7d406b137394f65924037a90eb9280be3597 Vera Weikel <vera.weikel@gmail.com> 1683298007 -0700	commit: move imgs to assets folder.
+6d7e7d406b137394f65924037a90eb9280be3597 c4ab56b39e2dc26a407454847773fc91e0b404d9 Vera Weikel <vera.weikel@gmail.com> 1683300799 -0700	commit: C# personal API project underway.
+c4ab56b39e2dc26a407454847773fc91e0b404d9 d586ffbddeae47f992b294ccedf7690d262581e1 Vera Weikel <vera.weikel@gmail.com> 1683303519 -0700	commit: doing mongo db doc research
+d586ffbddeae47f992b294ccedf7690d262581e1 e6a44f6c4320438cb0ee15bcf899c17dc1a06f6f Vera Weikel <vera.weikel@gmail.com> 1683305863 -0700	commit: experimenting with dotnet mvc new react, etc
+e6a44f6c4320438cb0ee15bcf899c17dc1a06f6f faeb49b68e44ff6917a534ee2eefdfab04c1b386 Vera Weikel <vera.weikel@gmail.com> 1683308241 -0700	commit: reasearch dotnet variants for generating the precise tech wanted.
+faeb49b68e44ff6917a534ee2eefdfab04c1b386 be36cefe68301a2c787b8b7fa8dadad80927f8b2 Vera Weikel <vera.weikel@gmail.com> 1683311240 -0700	commit: Dotnet commands not working to make new prj.
+be36cefe68301a2c787b8b7fa8dadad80927f8b2 3a13885afa7868f7f0e9bcfa8079cf4c89498b5b Vera Weikel <vera.weikel@gmail.com> 1683312917 -0700	commit: success on c# react frmwk. sans oauth/xunit/net6.0/editorconfig.
