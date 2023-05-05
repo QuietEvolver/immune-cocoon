@@ -6,4 +6,5 @@ To run the Serverside, stay in the folder and type:
 To run the Client side, navigate to the ClientApp folder and type: 
   $ npm run start
 
-  
+## Tools Used
+* $ dotnet add Standard.AI.OpenAI ( C# )
