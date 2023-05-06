@@ -32,4 +32,9 @@ After running this command, you will have a new project set up with an API backe
 
 2 research on api gpt
 430 capstone benchmarks assessment
-530 researching gpt api call(s)
+530 researching gpt api call(s) 
+    
+545 TBD  :  openai.Completion.create(
+      model="text-davinci-003",
+      prompt="Make a list of astronomical observatories:"
+    )
