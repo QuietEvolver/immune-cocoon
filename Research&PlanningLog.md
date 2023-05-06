@@ -38,3 +38,8 @@ After running this command, you will have a new project set up with an API backe
       model="text-davinci-003",
       prompt="Make a list of astronomical observatories:"
     )
+
+    https://platform.openai.com/docs/guides/chat
+    OVERVIEW: https://platform.openai.com/overview
+    QA-API: https://platform.openai.com/examples/default-qa
+     
