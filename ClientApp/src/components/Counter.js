@@ -18,13 +18,15 @@ export class Counter extends Component {
   render() {
     return (
       <div>
-        <h1>Counter</h1>
+        <h1>Count Me In!</h1>
 
-        <p>This is a simple example of a React component.</p>
+        <p>This is what it feels like to be incrementally accounted for by your environment.
+        Have you and your child walking hand-in-hand on this journey.
+        </p>
 
-        <p aria-live="polite">Current count: <strong>{this.state.currentCount}</strong></p>
+        <p aria-live="polite"> <em>Simply, <strong> {this.state.currentCount} </strong> : Because <stong>*YOU* </stong>count</em> </p>
 
-        <button className="btn btn-primary" onClick={this.incrementCounter}>Increment</button>
+        <button className="btn btn-primary" onClick={this.incrementCounter}>Increment: Because I do</button>
       </div>
     );
   }

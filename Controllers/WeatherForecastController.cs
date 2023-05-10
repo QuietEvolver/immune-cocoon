@@ -21,6 +21,9 @@ public class WeatherForecastController : ControllerBase
     [HttpGet]
     public IEnumerable<WeatherForecast> Get()
     {
+        
+        var SummaryX = Summaries[Random.Shared.Next(Summaries.Length)];
+            Console.WriteLine("$Summary=Summaries[]: \t" + SummaryX);
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
         {
             Date = DateTime.Now.AddDays(index),
