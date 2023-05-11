@@ -12,7 +12,7 @@ export class Home extends Component {
     return (
       <div>
       <h1>Welcome! <h2>To the Immune Cocoon </h2></h1>
-      <h5><em>an allergen & immunology log</em></h5><h2> ~ Spread Your Wings and Fly ~ </h2>
+      <h5><em>An Allergen & Immunology log</em></h5><h2> ~ Spread Your Wings and Fly ~ </h2>
       <br />
       <p aria-live="polite"> 
       "...it's not that I can't eat there and that it's not that they're making it impossible for me to eat. It's that now I'm not spending time enjoying the event, I'm spending time worrying about how am I going to get food." <span><em> - Teresa, 21, New Hampshire</em></span>
@@ -23,9 +23,9 @@ export class Home extends Component {
         <br /> 
         {/* <img src="./may-celiac.jpeg" alt="banner"></img> */}
         <ul>
-        <li><a href='http://localhost:5133'>5133:local host</a> cretaceous w swagger.html <a href='http://localhost:7222/index.html'>lc/7222:C# w swagger only</a> server-side <a href='http://localhost:7222'>code</a></li>
-        <li><a href='https://localhost:5001'>https:local host</a> and <a href='http://localhost:5000/index.html'>5000/index.html</a> </li>
-        <li><a href='https://localhost:7261/weatherforecast'>weather fetch: https/7261</a> and <a href='https://localhost:7261/weatherforecast'>C#</a> Microsoft.Hosting.Lifetime[14]: for cross-platform server-side code</li>
+        {/* <li><a href='http://localhost:5133'>5133:local host</a> cretaceous w swagger.html <a href='http://localhost:7222/index.html'>lc/7222:C# w swagger only</a> server-side <a href='http://localhost:7222'>code</a></li> */}
+        <li><a href='http://localhost:5155'>5155:local host</a> Business API w swagger.html <a href='https://localhost:7222/'> https:lc/7222:C# w swagger</a> server-side PAGINATION <a href='https://localhost:7222/index.html'>swagger code</a></li>
+        <li><a href='https://localhost:7261/weatherforecast'> Forecast fetch: https/7261</a> and <a href='https://localhost:7261/weatherforecast'>C#</a> MS for cross-platform server-side code</li>
         
         <br />
 
@@ -64,7 +64,7 @@ export class Home extends Component {
         
         </div>
         
-        <img src={myImage} style={{width: "auto"}}></img>
+        <img src={myImage} alt='banner' style={{width: "auto"}}></img>
       </div>
     );
   }
