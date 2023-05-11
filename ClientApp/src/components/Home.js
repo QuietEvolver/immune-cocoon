@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import myImage from '../images/myImage.jpg'
-import myImage from './may-celiac.jpeg'
+import myImage from './may-celiac.jpeg';
 // import myImage from './../images/month-awareness/may-celiac.jpg'
 // import { Link } from 'react-router-dom';
 
@@ -22,6 +22,7 @@ export class Home extends Component {
       </p>
         <br /> 
         {/* <img src="./may-celiac.jpeg" alt="banner"></img> */}
+        <img src={myImage} alt="banner" style={{width: "100%"}}></img>
         <ul>
         {/* <li><a href='http://localhost:5133'>5133:local host</a> cretaceous w swagger.html <a href='http://localhost:7222/index.html'>lc/7222:C# w swagger only</a> server-side <a href='http://localhost:7222'>code</a></li> */}
         <li><a href='http://localhost:5155'>5155:local host</a> Business API w swagger.html <a href='https://localhost:7222/'> https:lc/7222:C# w swagger</a> server-side PAGINATION <a href='https://localhost:7222/index.html'>swagger code</a></li>
@@ -64,7 +65,7 @@ export class Home extends Component {
         
         </div>
         
-        <img src={myImage} alt='banner' style={{width: "auto"}}></img>
+        {/* <img src={myImage} alt='banner' style={{width: "auto"}}></img> */}
       </div>
     );
   }
