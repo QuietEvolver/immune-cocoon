@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import { BusinessFetchTable } from './BusinessFetchTable';
 
 export class Create extends Component {
   static displayName = Create.name;
 
   constructor(props) {
     super(props);
-    this.state = { users: [], loading: true };
-  // }
+    // this.state = { businesses: [], loading: true };
+  }
 
   //   const theme = useContext(ThemeContext);
 
@@ -25,36 +26,10 @@ export class Create extends Component {
   //   backgroundColor: theme.inputBackground,
   //   color: theme.textColor, 
   // }
-  // TRY TO USE A HOOK HERE: 
-  // componentDidMount() {
-  //   this.populateUserData();
-  // }
 
-  // static renderUsersTable(users) {
-  //   return (
-  //     <table className='table table-striped' aria-labelledby="tabelLabel">
-  //       <thead>
-  //         <tr>
-  //           <th>ID</th>
-  //           <th>Name</th>
-  //           <th>Type</th>
-  //           <th>description</th>
-  //         </tr>
-  //       </thead>
-  //       <tbody>
-  //         {users.map(user =>
-  //           <tr key={user.id}>
-  //             <td>{user.id}</td>
-  //             <td>{user.name}</td>
-  //             <td>{user.type}</td>
-  //             <td>{user.description}</td>
-  //           </tr>
-  //         )}
-  //       </tbody>
-  //     </table>
-  //   );
+  // componentDidMount() {
+  //   this.populateBusinessData();
   // }
-  }
 
   render() {
     return (
@@ -102,19 +77,18 @@ export class Create extends Component {
           </button>
       </form>
       <hr/>
-{/* //         <form id="newSneak">
-//         <input type="text" placeholder="name" name="name" id="sneakName">
-//         <input type="text" placeholder="color" name="color" id="sneakColor">
-//         <input type="text" placeholder="owner" name="owner" id="sneakOwner">
-//         <button>Submit!</button>
-//     </form>
-//     <h2>All Sneakers:</h2> */}
-    {/* <ul id="sneakList"></ul>
+      <BusinessFetchTable />
+      
+      </div>
 
-//         <p aria-live="polite"> <em>Simply, <strong> {this.state.currentCount} </strong> : Because <stong>*YOU* </stong>count</em> </p>
-
-//         <button className="btn btn-primary" onClick={this.incrementCounter}>Increment: Because I do</button> */}
-        </div>
+      
     );
   }
+  // async populateBusinessData() {
+  //   const response = await fetch('/api/businesses');
+  //   const data = await response.json();
+  //   console.log("data: ", data);
+  //   this.setState({ business: data, loading: false });
+  // }
+
 }
