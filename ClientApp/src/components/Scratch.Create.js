@@ -96,7 +96,7 @@ export class Create extends Component {
 
           <form>
           {/*   onSubmit={props.formSubmissionHandler}> */}
-      <label>Pair Names:
+      <label> Names:
           <br/>
           {/* We add input styles. */}
           <input
@@ -105,7 +105,7 @@ export class Create extends Component {
             name='names' />
         </label>
         <br/>
-        <label>Location:
+        <label>Type:
           <br/>
           {/* We add input styles. */}
           <input
@@ -114,7 +114,7 @@ export class Create extends Component {
             name='location' />
         </label>
         <br/>
-        <label>Describe your issue:
+        <label> Describe reaction:
           <br/>
           {/* We add input styles. */}
           <textarea

@@ -26,7 +26,7 @@ export class Counter extends Component {
 
         <p aria-live="polite"> <em>Simply, <strong> {this.state.currentCount} </strong> : Because <stong>*YOU* </stong>count</em> </p>
 
-        <button className="btn btn-primary" onClick={this.incrementCounter}>Increment: Because I do</button>
+        <button className="btn btn-primary" onClick={this.incrementCounter}>Count yourself in</button>
       </div>
     );
   }

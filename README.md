@@ -8,3 +8,12 @@ To run the Client side, navigate to the ClientApp folder and type:
 
 ## Tools Used
 * $ dotnet add Standard.AI.OpenAI ( C# )
+* Open Weather 
+* Javascript
+* Pagination
+* Swagger
+* C#
+* React
+* JSX
+* HTML
+* CSS
