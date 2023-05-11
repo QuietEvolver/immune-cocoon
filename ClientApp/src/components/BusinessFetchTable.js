@@ -33,7 +33,7 @@ export class BusinessFetchTable extends Component {
               <td>{business.businessId}</td>
               <td>{business.name}</td>
               <td>{business.type}</td>
-              <td>{business.description}</td>
+              <td>{business.yearsInBusiness}</td>
             </tr>
           )}
         </tbody>

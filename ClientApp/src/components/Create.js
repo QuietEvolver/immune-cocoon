@@ -5,31 +5,25 @@ export class Create extends Component {
   static displayName = Create.name;
 
   constructor(props) {
-    super(props);
-    // this.state = { businesses: [], loading: true };
+    super(props); 
   }
 
-  //   const theme = useContext(ThemeContext);
+  async formSubmissionHandler(e){
+    e.preventDefault();
+    console.log("Type: event.target.type.value: ", e.target.type.value);
 
-  //   // New if statement below!
-  //   if (!theme) {
-  //     throw new Error("ThemeContext must be used within a ThemeContext.Provider!");
-  //   }
-  //  // We create button styles.
-  // const buttonStyles = { 
-  //   backgroundColor: theme.buttonBackground, 
-  // //   color: theme.textColor, 
-  // // }
-
-  // // We create input styles.
-  // const inputStyles = { 
-  //   backgroundColor: theme.inputBackground,
-  //   color: theme.textColor, 
-  // }
-
-  // componentDidMount() {
-  //   this.populateBusinessData();
-  // }
+    // Example POST method implementation:
+    const response = await fetch("/api/businesses/", {
+      method: "POST", // *GET, POST, PUT, DELETE, etc.
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ 
+        name: e.target.businessName.value , type: e.target.type.value ,  yearsInBusiness: e.target.yearsInBusiness.value })
+    });
+      console.log("respone: ", response);
+  }
 
   render() {
     return (
@@ -40,15 +34,15 @@ export class Create extends Component {
         </p> 
         <h1>Data: </h1>
 
-          <form>
-            {/* onSubmit={props.formSubmissionHandler} */}
-      <label> Names:
+          <form onSubmit={this.formSubmissionHandler}>
+            
+      <label> Name:
           <br/>
           {/* We add input styles. */}
           <input
             // style={inputStyles}
             type='text'
-            name='names' />
+            name='businessName' />
         </label>
         <br/>
         <label>Type:
@@ -60,12 +54,12 @@ export class Create extends Component {
             name='type' />
         </label>
         <br/>
-        <label>Describe reaction:
+        <label>Describe yearsInBusiness (reaction):
           <br/>
           {/* We add input styles. */}
           <textarea
             // style={inputStyles}
-            name='description' />
+            name='yearsInBusiness' />
         </label>
         <br/>
         {/* We add button styles. */}
@@ -78,17 +72,7 @@ export class Create extends Component {
       </form>
       <hr/>
       <BusinessFetchTable />
-      
       </div>
-
-      
     );
   }
-  // async populateBusinessData() {
-  //   const response = await fetch('/api/businesses');
-  //   const data = await response.json();
-  //   console.log("data: ", data);
-  //   this.setState({ business: data, loading: false });
-  // }
-
 }

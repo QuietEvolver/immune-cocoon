@@ -41,7 +41,7 @@ public class BusinessesController : ControllerBase
     }
 
 
-    // GET: api/Animals
+    // GET: api/businesses/
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Business>>> Get( string? type, string?  name, int? minimumYearsInBusiness) 
     {
