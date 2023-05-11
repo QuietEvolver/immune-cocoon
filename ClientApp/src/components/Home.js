@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import myImage from '../images/myImage.jpg'
 import myImage from './may-celiac.jpeg'
 // import myImage from './../images/month-awareness/may-celiac.jpg'
+// import { Link } from 'react-router-dom';
 
 
 export class Home extends Component {
@@ -10,13 +11,14 @@ export class Home extends Component {
   render() {
     return (
       <div>
-      <h1>Welcome! <h2>To the Immune Cocoon - Spread Your Wings and Fly </h2></h1>
+      <h1>Welcome! <h2>To the Immune Cocoon </h2></h1>
+      <h5><em>an allergen & immunology log</em></h5><h2> ~ Spread Your Wings and Fly ~ </h2>
       <br />
       <p aria-live="polite"> 
-      "...it's not that I can't eat there and that it's not that they're making it impossible for me to eat. It's that now I'm not spending time enjoying the event, I'm spending time worrying about how am I going to get food." <span><em> ~ Teresa, 21, New Hampshire</em></span>
+      "...it's not that I can't eat there and that it's not that they're making it impossible for me to eat. It's that now I'm not spending time enjoying the event, I'm spending time worrying about how am I going to get food." <span><em> - Teresa, 21, New Hampshire</em></span>
       </p>
       <p aria-live="polite"> 
-      "If you can deliver that meal in a way where it doesn't bring attention to that guest, that is what I think is the most impactful." <span><em> ~ Steve, 37, Oregon</em></span>
+      "If you can deliver that meal in a way where it doesn't bring attention to that guest, that is what I think is the most impactful." <span><em> - Steve, 37, Oregon</em></span>
       </p>
         <br /> 
         {/* <img src="./may-celiac.jpeg" alt="banner"></img> */}
@@ -27,12 +29,12 @@ export class Home extends Component {
         
         <br />
 
-          <p>Served from API.CONTROLLER:</p>
-          <li><a href='http://getbootstrap.com/'>1: </a> basic </li>
-          <li><a href='http://getbootstrap.com/'>2: </a> create</li>
-          <li><a href='http://getbootstrap.com/'>3: </a> read</li>
-          <li><a href='http://getbootstrap.com/'>4: </a> update edit</li>
-          <li><a href='http://getbootstrap.com/'>5: </a> delete</li>
+          <p>At components, sitrs are served from API.CONTROLLER:</p>
+          <li><a href='https://localhost:44484/'>1: </a> basic </li>
+          <li><a href='https://localhost:44484/create'>2: </a> create</li>
+          <li><a href='https://localhost:44484/'>3: </a> read</li>
+          <li><a href='https://localhost:44484/edit'>4: </a> update edit</li>
+          <li><a href='https://localhost:44484/delete'>5: </a> delete</li>
         </ul>
 
           <h4> From our partners:</h4>  

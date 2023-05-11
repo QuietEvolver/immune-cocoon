@@ -1,88 +1,33 @@
-// import React, { Component } from 'react';
-// const express = require("express");
-// const router = express.Router();
-// const path = require("path");
+import React, { Component } from 'react';
 
+export class Create extends Component {
+  static displayName = Create.name;
 
-// export class Counter extends Component {
-// router.get("/Create",(req,res)=>{
-//     // res.send("Welcome to the home page")
-//    res.sendFile(path.join(__dirname,"../views/index.html"))
-// })
+  constructor(props) {
+    super(props);
+    this.state = { currentCount: 0 };
+    this.incrementCreate = this.incrementCreate.bind(this);
+  }
 
-// const sneakerRoutes = require("./sneakerController");
-// router.use("/api/sneakers",sneakerRoutes)
+  incrementCreate() {
+    this.setState({
+      currentCount: this.state.currentCount + 1
+    });
+  }
 
-// const shirtsRoutes = require("./shirtsController");
-// router.use("/api/shirts",shirtsRoutes)
-//   // static displayName = Counter.name;
+  render() {
+    return (
+      <div>
+        <h1>Count Me In!</h1>
 
-//   // constructor(props) {
-//   //   super(props);
-//   //   this.state = { currentCount: 0 };
-//   //   this.incrementCounter = this.incrementCounter.bind(this);
-//   // }
+        <p>This is what it feels like to be incrementally accounted for by your environment.
+        Have you and your child walking hand-in-hand on this journey.
+        </p>
 
-//   // incrementCounter() {
-//   //   this.setState({
-//   //     currentCount: this.state.currentCount + 1
-//   //   });
-//   // }
-  
+        <p aria-live="polite"> <em>Simply, <strong> {this.state.currentCount} </strong> : Because <stong>*YOU* </stong>count</em> </p>
 
-// fetch("/api/sneakers").then(res=>{
-//   return res.json();
-// }).then(data=>{
-//   console.log(data)
-//   data.forEach(shoe=>{
-//       const newLi = document.createElement("li");
-//       newLi.textContent = `${shoe.owner}'s ${shoe.color} ${shoe.name}`
-//       document.querySelector("#sneakList").append(newLi)
-//   })
-// })
-
-// sneakForm.addEventListener("submit",e=>{
-//   e.preventDefault();
-//   const newShoe = {
-//       name:document.querySelector("#sneakName").value,
-//       color:document.querySelector("#sneakColor").value,
-//       owner:document.querySelector("#sneakOwner").value
-//   }
-//   console.log(newShoe)
-//   fetch("/api/sneakers",{
-//       method:"POST",
-//       body:JSON.stringify(newShoe),
-//       headers:{
-//           "Content-Type":"application/json"
-//       }
-//   }).then(res=>{
-//       if(res.ok){
-//           location.reload()
-//       } else {
-//           alert("womp womp. something went wrong!")
-//       }
-//   })
-// })
-
-//   render() {
-//     return (
-//       <div>
-//         <h1>Add Me In!</h1>
-
-        
-//         <form id="newSneak">
-//         <input type="text" placeholder="name" name="name" id="sneakName">
-//         <input type="text" placeholder="color" name="color" id="sneakColor">
-//         <input type="text" placeholder="owner" name="owner" id="sneakOwner">
-//         <button>Submit!</button>
-//     </form>
-//     <h2>All Sneakers:</h2>
-//     {/* <ul id="sneakList"></ul>
-
-//         <p aria-live="polite"> <em>Simply, <strong> {this.state.currentCount} </strong> : Because <stong>*YOU* </stong>count</em> </p>
-
-//         <button className="btn btn-primary" onClick={this.incrementCounter}>Increment: Because I do</button> */}
-//       </div>
-//     );
-//   }
-// }
+        <button className="btn btn-primary" onClick={this.incrementCreate}>Increment: Because I do</button>
+      </div>
+    );
+  }
+}

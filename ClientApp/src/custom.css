@@ -1,4 +1,6 @@
-/* Provide sufficient contrast against white background */
+body {
+ background-color: honeydew;
+}
 a {
   color: #0366d6;
 }
