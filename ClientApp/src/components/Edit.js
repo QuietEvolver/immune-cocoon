@@ -10,7 +10,7 @@ export class Edit extends Component {
     // this.state = { businesses: [], loading: true };
   }
   // componentDidMount() {
-  //   this.populateWeatherData();
+  //   this.populateBusinessData();
   // } 
   async formSubmissionHandler(e){
     e.preventDefault();
@@ -35,11 +35,12 @@ export class Edit extends Component {
   render() {
     // let contents = this.state.loading
     //   ? <p><em>Loading...</em></p>
-    //   : FetchData.renderForecastsTable(this.state.forecasts);
+    //   : Edit.renderBusinessesTable(this.state.businesses);
 
     
     return (
       <div>
+        {/* {contents} */}
         <h1>Edit</h1>
         <p aria-live="polite"> This is what it feels like to edit on this journey.
         </p>
