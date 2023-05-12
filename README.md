@@ -7,7 +7,7 @@ To run the Client side, navigate to the ClientApp folder and type:
   $ npm run start
 
 ## Tools Used
-* $ dotnet add Standard.AI.OpenAI ( C# )
+<!-- * $ dotnet add Standard.AI.OpenAI ( C# ) -->
 * Open Weather 
 * Javascript
 * Pagination
