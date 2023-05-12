@@ -7,7 +7,7 @@ export class Edit extends Component {
 
   constructor(props) {
     super(props); 
-    // this.state = { businesses: [], loading: true };
+    this.state = { businesses: [], loading: true };
   }
   // componentDidMount() {
   //   this.populateBusinessData();
@@ -29,10 +29,11 @@ export class Edit extends Component {
         type: e.target.type.value,  yearsInBusiness: e.target.yearsInBusiness.value })
     });
       console.log("respone: ", response);
-      const getSelection = businessId => response.filter(businessSelection => businessSelection.businessId === businessId)[0];
-      console.log("getSelectionFX: ", getSelection);
+      // const getSelection = businessId => response.filter(businessSelection => businessSelection.businessId === businessId)[0];
+      // console.log("getSelectionFX: ", getSelection);
+  const getSelection = businessId => businesses.filter(businessSelection => businessSelection.businessId === businessId)[0];
+  console.log("getSelectionFX: ", getSelection);
   }
-
 
   render() {
     // let contents = this.state.loading
