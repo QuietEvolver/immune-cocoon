@@ -15,7 +15,7 @@ export class BusinessFetchTable extends Component {
   render() {
     return (
       <div>
-        <h1>Data: </h1>
+        <h1>Business Data: </h1>
       <hr/>
       {!this.state.loading ? 
       ( <table className='table table-striped' aria-labelledby="tabelLabel">
@@ -24,7 +24,7 @@ export class BusinessFetchTable extends Component {
             <th>ID</th>
             <th>Name</th>
             <th>Type</th>
-            <th>Describe reaction:</th>
+            <th>Years in Business:</th>
           </tr>
         </thead>
         <tbody>

@@ -17,10 +17,10 @@ namespace BusinessApi
       builder.Entity<Business>()
         .HasData(
           new Business { BusinessId=1, Name="Matilda's Bistro", Type="Restaurant", YearsInBusiness=7 }, 
-          new Business { BusinessId=2, Name="Rexi Teacups", Type="Shop", YearsInBusiness=10 }, 
-          new Business { BusinessId=3, Name="Matilda Toys", Type="Shop", YearsInBusiness=2 }, 
+          new Business { BusinessId=2, Name="Rexall Middle School", Type="School", YearsInBusiness=10 }, 
+          new Business { BusinessId=3, Name="Coffee Kettle Room", Type="Shop", YearsInBusiness=2 }, 
           new Business { BusinessId=4, Name="Pip's Pizza & Brew", Type="Restaurant", YearsInBusiness=4 }, 
-          new Business { BusinessId=5, Name="Bartholomew Pet Shop", Type="Shop", YearsInBusiness=22 } 
+          new Business { BusinessId=5, Name="Dr. Bartholomew's Clinic", Type="Clinic", YearsInBusiness=22 } 
         );
     }
   }
