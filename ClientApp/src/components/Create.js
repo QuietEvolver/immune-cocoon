@@ -20,7 +20,8 @@ export class Create extends Component {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({ 
-        name: e.target.businessName.value , type: e.target.type.value ,  yearsInBusiness: e.target.yearsInBusiness.value })
+        name: e.target.businessName.value, 
+        type: e.target.type.value,  yearsInBusiness: e.target.yearsInBusiness.value })
     });
       console.log("respone: ", response);
   }
