@@ -7,13 +7,16 @@ export class Edit extends Component {
 
   constructor(props) {
     super(props); 
+    // this.state = { businesses: [], loading: true };
   }
+  // componentDidMount() {
+  //   this.populateWeatherData();
+  // } 
   async formSubmissionHandler(e){
     e.preventDefault();
-    console.log("Type: event.target.businessId.value: ", e.target.businessId.value);
     console.log("Type: event.target.type.value: ", e.target.type.value);
 
-    // Example POST method implementation:
+    // Example PUT method implementation:
     const response = await fetch("/api/businesses/", {
       method: "PUT", // *GET, POST, PUT, DELETE, etc.
       headers: {
@@ -30,6 +33,11 @@ export class Edit extends Component {
 
 
   render() {
+    // let contents = this.state.loading
+    //   ? <p><em>Loading...</em></p>
+    //   : FetchData.renderForecastsTable(this.state.forecasts);
+
+    
     return (
       <div>
         <h1>Edit</h1>
@@ -81,9 +89,9 @@ export class Edit extends Component {
           Update Edit
           </button>
       <hr/>
-      <BusinessFetchTable />
       </form>
-{/* 
+      <BusinessFetchTable />
+      {/* 
         <p aria-live="polite"> <em>Simply, <strong> {this.state.currentCount} </strong> : Because <stong>*YOU* </stong>count</em> </p>
 
         <button className="btn btn-primary" onClick={this.incrementEdit}>Increment: Because I do</button> */}

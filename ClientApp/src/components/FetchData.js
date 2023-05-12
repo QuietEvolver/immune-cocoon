@@ -45,7 +45,7 @@ export class FetchData extends Component {
 
     return (
       <div>
-        <h1 id="tabelLabel" > Pollen weather forecast</h1>
+        <h1 id="tabelLabel" > Pollen Forecast: </h1>
         <p>This component demonstrates fetching data from the server.</p>
         {contents}
         <hr />
