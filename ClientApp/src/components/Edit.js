@@ -29,6 +29,8 @@ export class Edit extends Component {
         type: e.target.type.value,  yearsInBusiness: e.target.yearsInBusiness.value })
     });
       console.log("respone: ", response);
+      const getSelection = businessId => response.filter(businessSelection => businessSelection.businessId === businessId)[0];
+      console.log("getSelectionFX: ", getSelection);
   }
 
 
