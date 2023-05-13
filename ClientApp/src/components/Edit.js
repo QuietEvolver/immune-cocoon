@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { BusinessFetchTable } from './BusinessFetchTable';
 //
+// TODO: suppress form through ternary fx
+// - have a clickable mapped id to pop up form if clicked
 // 
+
 export class Edit extends Component {
   static displayName = Edit.name;
 
