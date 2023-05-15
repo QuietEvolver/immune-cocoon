@@ -14,7 +14,7 @@ const AppRoutes = [
   },
   {
     path: '/fetch-data',
-    requireAuth: false, //true
+    requireAuth:true, // false
     element: <FetchData />
   },
   ...ApiAuthorzationRoutes
