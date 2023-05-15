@@ -1,0 +1,17 @@
+/* Provide sufficient contrast against white background */
+body{
+  background-color:rgb(222, 254, 255);
+}
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b2cc2;
+  border-color: #4218ac;
+}
