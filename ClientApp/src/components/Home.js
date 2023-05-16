@@ -14,7 +14,7 @@ export class Home extends Component {
         <img src={myImage} alt="banner" style={{ width: "100%" }}></img>
         <div style={{ display: "justify-content", float: "center" }}>
           <h1>
-            Welcome to Immune Cocoon: 
+            Immune Cocoon: 
               <em> An Allergen & Immunology log</em>
           </h1>
             <h5 style={{ display: "center" }}>Confidence in Comfort</h5>
