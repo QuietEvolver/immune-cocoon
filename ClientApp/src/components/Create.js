@@ -4,9 +4,9 @@ import { BusinessFetchTable } from './BusinessFetchTable';
 export class Create extends Component {
   static displayName = Create.name;
 
-  constructor(props) {
-    super(props); 
-  }
+  // constructor(props) {
+  //   super(props); 
+  // }
 
   async formSubmissionHandler(e){
     e.preventDefault();
