@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BusinessFetchTable } from './BusinessFetchTable';
+// import { BusinessFetchTable } from './BusinessFetchTable';
 //
 // TODO: suppress form through ternary fx
 // - have a clickable mapped id to pop up form if clicked
@@ -10,7 +10,7 @@ export class Edit extends Component {
 
   constructor(props) {
     super(props); 
-    this.state = { businesses: [], loading: true };
+    // this.state = { businesses: [], loading: true };
   }
   // componentDidMount() {
   //   this.populateBusinessData();
@@ -34,8 +34,8 @@ export class Edit extends Component {
       console.log("respone: ", response);
       // const getSelection = businessId => response.filter(businessSelection => businessSelection.businessId === businessId)[0];
       // console.log("getSelectionFX: ", getSelection);
-  const getSelection = businessId => businesses.filter(businessSelection => businessSelection.businessId === businessId)[0];
-  console.log("getSelectionFX: ", getSelection);
+  // const getSelection = businessId => businesses.filter(businessSelection => businessSelection.businessId === businessId)[0];
+  // console.log("getSelectionFX: ", getSelection);
   }
 
   render() {
@@ -43,7 +43,7 @@ export class Edit extends Component {
     //   ? <p><em>Loading...</em></p>
     //   : Edit.renderBusinessesTable(this.state.businesses);
 
-    
+    console.log ("propsselectedBusiness", this.props.propsSelectedBusiness);
     return (
       <div>
         {/* {contents} */}
@@ -97,7 +97,7 @@ export class Edit extends Component {
           </button>
       <hr/>
       </form>
-      <BusinessFetchTable />
+      {/* <BusinessFetchTable /> */}
       {/* 
         <p aria-live="polite"> <em>Simply, <strong> {this.state.currentCount} </strong> : Because <stong>*YOU* </stong>count</em> </p>
 
