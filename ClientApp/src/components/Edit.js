@@ -6,19 +6,19 @@ export class Edit extends Component {
   // constructor(props) {
   //   super(props); 
   // }
-  async formSubmissionHandler(e){
-    e.preventDefault();
+ formSubmissionHandler = async (e) =>   {
+    // e.preventDefault();
     console.log("Type: event.target.type.value: ", e.target.type.value);
 
     // Example PUT method implementation:
-    const response = await fetch("/api/businesses/", {
+    const response = await fetch(`/api/businesses/${this.props.propsSelectedBusiness.businessId}`, {
       method: "PUT", // *GET, POST, PUT, DELETE, etc.
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({ 
-        businessId: e.target.businessId.value, 
+        businessId: this.props.propsSelectedBusiness.businessId, 
         name: e.target.businessName.value , 
         type: e.target.type.value,  yearsInBusiness: e.target.yearsInBusiness.value })
     });
@@ -26,7 +26,7 @@ export class Edit extends Component {
   }
 
   render() {
-    console.log ("propsselectedBusiness", this.props.propsSelectedBusiness);
+    console.log ("propsselectedBusiness", this.props.propsSelectedBusiness.businessId);
     return (
       <div>
         <h1>Edit</h1>
@@ -35,31 +35,27 @@ export class Edit extends Component {
         <h1>Data: </h1>
 
           <form onSubmit={this.formSubmissionHandler}>
-      <label> Business Id:
-          <br/>
-          <input
-            type='text'
-            name='businessId' />
-        </label>
-        <br/>
       <label> Name:
           <br/>
           <input
             type='text'
-            name='businessName' />
+            name='businessName'
+            placeholder= {this.props.propsSelectedBusiness.name} />
         </label>
         <br/>
         <label>Type:
           <br/>
           <input
             type='text'
-            name='type' />
+            name='type' 
+            placeholder= {this.props.propsSelectedBusiness.type}/>
         </label>
         <br/>
         <label>Describe yearsInBusiness (reaction):
           <br/>
           <textarea
-            name='yearsInBusiness' />
+            name='yearsInBusiness'
+            placeholder= {this.props.propsSelectedBusiness.yearsInBusiness} />
         </label>
         <br/>
         <button 

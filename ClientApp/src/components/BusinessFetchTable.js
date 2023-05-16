@@ -28,7 +28,7 @@ export class BusinessFetchTable extends Component {
       {!this.state.loading ? 
       (
         <>
-        {this.state.selectedBusiness ?  (<Edit propsSelectedBusiness = {this.props.selectedBusiness} />) : (<table className='table table-striped' aria-labelledby="tabelLabel">
+        {this.state.selectedBusiness ?  (<Edit propsSelectedBusiness = {this.state.selectedBusiness} />) : (<table className='table table-striped' aria-labelledby="tabelLabel">
         <thead>
           <tr>
             <th>ID</th>
