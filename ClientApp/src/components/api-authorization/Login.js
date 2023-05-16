@@ -45,6 +45,8 @@ export class Login extends Component {
   render() {
     const action = this.props.action;
     const { message } = this.state;
+    console.log("action: ", action);
+    console.log("message: ", message);
 
     if (!!message) {
       return <div>{message}</div>
