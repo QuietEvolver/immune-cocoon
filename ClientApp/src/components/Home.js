@@ -16,10 +16,8 @@ export class Home extends Component {
           <h1>
             Welcome to Immune Cocoon: 
               <em> An Allergen & Immunology log</em>
-            <h5 style={{ display: "center" }}>Confidence in Comfort</h5>
-            <h5>
-            </h5>
           </h1>
+            <h5 style={{ display: "center" }}>Confidence in Comfort</h5>
         </div>
         <br />
         <p aria-live="polite">

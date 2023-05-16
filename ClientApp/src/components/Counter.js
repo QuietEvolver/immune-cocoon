@@ -24,7 +24,7 @@ export class Counter extends Component {
         Have you and your child walking hand-in-hand on this journey.
         </p>
 
-        <p aria-live="polite"> <em>Simply, <strong> {this.state.currentCount} </strong> : Because <stong>*YOU* </stong>count</em> </p>
+        <p aria-live="polite"> <em>Simply, <strong> {this.state.currentCount} </strong> : Because <strong>*YOU* </strong>count</em> </p>
 
         <button className="btn btn-primary" onClick={this.incrementCounter}>Count yourself in</button>
       </div>

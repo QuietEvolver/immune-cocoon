@@ -23,7 +23,7 @@ export class Delete extends Component {
         <p>This is what it feels like to heal on this journey.
         </p>
 
-        <p aria-live="polite"> <em>Simply, <strong> {this.state.currentCount} </strong> : Because <stong>*YOU* </stong>count</em> </p>
+        <p aria-live="polite"> <em>Simply, <strong> {this.state.currentCount} </strong> : Because <strong>*YOU* </strong>count</em> </p>
 
         <button className="btn btn-primary" onClick={this.incrementDelete}>Decrement: Because I healed</button>
       </div>

@@ -39,35 +39,26 @@ export class Create extends Component {
             
       <label> Name:
           <br/>
-          {/* We add input styles. */}
           <input
-            // style={inputStyles}
             type='text'
             name='businessName' />
         </label>
         <br/>
         <label>Type:
           <br/>
-          {/* We add input styles. */}
           <input
-            // style={inputStyles}
             type='text'
             name='type' />
         </label>
         <br/>
         <label>Describe yearsInBusiness (reaction):
           <br/>
-          {/* We add input styles. */}
           <textarea
-            // style={inputStyles}
             name='yearsInBusiness' />
         </label>
         <br/>
-        {/* We add button styles. */}
         <button 
-        // style={buttonStyles}  
         type='submit'>
-          {/* {props.buttonText} */}
           Create
           </button>
       </form>
