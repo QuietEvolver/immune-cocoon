@@ -17,6 +17,16 @@ const AppRoutes = [
     requireAuth: true,
     element: <FetchData />
   },
+  // {
+  //   path: '/create',
+  //   requireAuth: true,
+  //   element: <Create />
+  // },
+  // {
+  //   path: '/edit',
+  //   requireAuth: true,
+  //   element: <Edit />
+  // },
   ...ApiAuthorzationRoutes
 ];
 
