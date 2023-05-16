@@ -6,7 +6,7 @@ export class Edit extends Component {
   // constructor(props) {
   //   super(props); 
   // }
- formSubmissionHandler = async (e) =>   {
+formSubmissionHandler = async (e) =>   {
     // e.preventDefault();
     console.log("Type: event.target.type.value: ", e.target.type.value);
 
@@ -24,6 +24,24 @@ export class Edit extends Component {
     });
       console.log("respone: ", response);
   }
+
+  handleFormDelete = async(e) => {
+    console.log("Type: event.target.type.value: ", e.target.type.value);
+
+    e.preventDefault();
+    const response = await fetch(`/api/businesses/${this.props.propsSelectedBusiness.businessId}`, {
+      method: "DELETE", // *GET, POST, PUT, DELETE, etc.
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ 
+        businessId: this.props.propsSelectedBusiness.businessId
+      })
+    });
+    console.log("respone: ", response);
+  }
+
 
   render() {
     console.log ("propsselectedBusiness", this.props.propsSelectedBusiness.businessId);
@@ -63,6 +81,13 @@ export class Edit extends Component {
           Update Edit
           </button>
       <hr/>
+      </form> 
+      {/* Delete */}
+      <form onSubmit={this.handleFormDelete}>
+        <button 
+          type='submit'>
+            Delete Close Case
+        </button>
       </form>
       </div>
     );

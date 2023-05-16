@@ -67,12 +67,12 @@ export class Home extends Component {
           <li>
             <a href="https://localhost:44484/">3: </a> read
           </li>
-          <li>
+          {/* <li>
             <a href="https://localhost:44484/edit">4: </a> update edit
-          </li>
-          <li>
-            <a href="https://localhost:44484/delete">5: </a> delete
-          </li>
+          </li> */}
+          {/* <li>
+            <a href="https://localhost:44484/edit">5: </a> delete
+          </li> */}
         </ul>
 
         <h4> From our partners:</h4>
