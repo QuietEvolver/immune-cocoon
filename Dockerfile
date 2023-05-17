@@ -8,8 +8,8 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
 WORKDIR /App
 
 # copy csproj and restore as distinct layers
-COPY *.csproj .
-RUN dotnet restore --use-current-runtime
+# COPY *.csproj .
+# RUN dotnet restore --use-current-runtime
 
 # copy and publish app and libraries
 COPY . .
