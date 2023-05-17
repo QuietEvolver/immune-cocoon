@@ -12,11 +12,13 @@
 # RUN npm run build
 
 # Stage 2: Build and run the C# backend
+# FROM mcr.microsoft.com/dotnet/sdk:6.0 AS backend
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /app
 COPY --from=build /app/build ./ClientApp
 COPY . ./
-
+# Restore as distinct layers
+RUN dotnet restore
 
 RUN dotnet publish -c Release -o out
 
