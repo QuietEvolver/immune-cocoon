@@ -83,9 +83,11 @@ formSubmissionHandler = async (e) =>   {
       <hr/>
       </form> 
       {/* Delete */}
-        <button onClick={this.handleDelete}>
+      <form onSubmit={this.handleDelete}>
+        <button type="submit">
         Delete Close Case
         </button>
+        </form>
       </div>
     );
   }
