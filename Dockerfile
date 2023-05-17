@@ -7,8 +7,8 @@ WORKDIR /App
 
 # copy csproj and restore as distinct layers
 COPY *.csproj .
-RUN dotnet restore
-# RUN dotnet restore --use-current-runtime
+# RUN dotnet restore
+RUN dotnet restore --use-current-runtime
 # copy and publish app and libraries
 # COPY . .
 COPY . ./
