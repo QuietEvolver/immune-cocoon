@@ -1,23 +1,21 @@
-# Set the base image to .NET 6 SDK
+# Learn about building .NET container images:
+# https://github.com/dotnet/dotnet-docker/blob/main/samples/README.md
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /source
 
-# Set the working directory to /app
-WORKDIR /app
+# copy csproj and restore as distinct layers
+COPY *.csproj .
+RUN dotnet restore --use-current-runtime
 
-# Copy the project file(s) and restore dependencies
-COPY *.csproj ./
-RUN dotnet restore
-
-# Copy the remaining source code
+# copy and publish app and libraries
 COPY . .
+RUN dotnet publish --use-current-runtime --self-contained false --no-restore -o /app
 
-# Build the application
-RUN dotnet publish -c Release -o out
 
-# Create the runtime image
-FROM mcr.microsoft.com/dotnet/aspnet:6.0
+# final stage/image
+FROM mcr.microsoft.com/dotnet/runtime:6.0
 WORKDIR /app
-COPY --from=build /app/out .
+COPY --from=build /app .
 ENTRYPOINT ["dotnet", "csharp.dll"]
 ##
 # Stage 1: Build the React app
