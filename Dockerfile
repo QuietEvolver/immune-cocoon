@@ -12,7 +12,8 @@ WORKDIR /App
 # RUN dotnet restore --use-current-runtime
 
 # copy and publish app and libraries
-COPY . .
+# COPY . .
+COPY . ./
 # RUN dotnet publish --use-current-runtime --self-contained false --no-restore -o /app
 # MS: Restore as distinct layers
 RUN dotnet restore
