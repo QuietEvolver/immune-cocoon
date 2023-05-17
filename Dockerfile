@@ -7,16 +7,17 @@ WORKDIR /App
 
 # copy csproj and restore as distinct layers
 COPY *.csproj .
-RUN dotnet restore --use-current-runtime
-# # RUN dotnet restore
-# # # copy and publish app and libraries
-# # # COPY . .
-# COPY . ./
+RUN dotnet restore
+# RUN dotnet restore --use-current-runtime
+# copy and publish app and libraries
+# COPY . .
+COPY . ./
 # RUN dotnet publish --use-current-runtime --self-contained false --no-restore -o /app
 # MS: Restore as distinct layers
-# RUN dotnet restore
+RUN dotnet restore
 # MS: Build and publish a release
-RUN dotnet publish -c Release -o out
+RUN dotnet publish
+# RUN dotnet publish -c Release -o out
 
 # MS: docker counter-images
 # docker build -t counter-image -f Dockerfile .
