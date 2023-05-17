@@ -1,0 +1,3 @@
+Hosting webapp - Render.com: https://ic-vktt.onrender.com
+Hosting DB - Railway: business_api
+GH: immune-cocoon
