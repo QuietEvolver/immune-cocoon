@@ -19,6 +19,8 @@ RUN dotnet restore
 # MS: Build and publish a release
 RUN dotnet publish -c Release -o out
 
+# MS: docker counter-images
+# docker build -t counter-image -f Dockerfile .
 
 # # final stage/image
 # FROM mcr.microsoft.com/dotnet/runtime:6.0
