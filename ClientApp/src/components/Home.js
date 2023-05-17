@@ -55,6 +55,22 @@ export class Home extends Component {
             cross-platform server-side code
           </li>
 
+          trying this: 
+        <li> <a href="http://localhost:5201">5201:local host</a> Business API w5201
+            swagger.html
+            <a href="https://localhost:7261/"> https:lc/7222:C# w swagger</a>
+            server-side PAGINATION
+            <a href="https://localhost:7261/index.html">swagger code</a>
+          </li>
+          <li>
+            <a href="https://localhost:7261/weatherforecast">
+              
+              Forecast fetch: https/7261
+            </a>
+            and <a href="https://localhost:7261/weatherforecast">C#</a> MS for
+            cross-platform server-side code
+          </li>
+
           <br />
 
           <p>At components, sitrs are served from API.CONTROLLER:</p>
