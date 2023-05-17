@@ -25,7 +25,7 @@
 
 # ENTRYPOINT ["dotnet", "out/csharp.dll"]
 FROM mcr.microsoft.com/dotnet/sdk:6.0 as build-env
-WORKDIR /csharp
+WORKDIR /app
 # Learn more about the "WORKDIR" Dockerfile command.
 
 COPY ./*.csproj .
