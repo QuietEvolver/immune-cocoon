@@ -13,10 +13,10 @@ WORKDIR /App
 # RUN dotnet restore --use-current-runtime
 ## Calvin: ORIG
 COPY *.csproj ./
-RUN dotnet restore
-# copy and publish app and libraries
-# COPY . .
-COPY . ./
+# RUN dotnet restore
+# # copy and publish app and libraries
+# # COPY . .
+# COPY . ./
 # RUN dotnet publish --use-current-runtime --self-contained false --no-restore -o /app
 # MS: Restore as distinct layers
 RUN dotnet restore
