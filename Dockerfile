@@ -13,14 +13,27 @@
 
 # Stage 2: Build and run the C# backend
 # FROM mcr.microsoft.com/dotnet/sdk:6.0 AS backend
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /app
-COPY --from=build /app/build ./ClientApp
-COPY . ./
-# Restore as distinct layers
+# FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+# WORKDIR /app
+# COPY --from=build /app/build ./ClientApp
+# COPY . ./
+# # Restore as distinct layers
+# RUN dotnet restore
+
+# RUN dotnet publish -c Release -o out
+
+
+# ENTRYPOINT ["dotnet", "out/csharp.dll"]
+FROM mcr.microsoft.com/dotnet/sdk:6.0 as build-env
+WORKDIR /src
+# Learn more about the "WORKDIR" Dockerfile command.
+
+COPY src/*.csproj .
 RUN dotnet restore
+COPY src .
+RUN dotnet publish -c Release -o /publish
 
-RUN dotnet publish -c Release -o out
-
-
-ENTRYPOINT ["dotnet", "out/csharp.dll"]
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 as runtime
+WORKDIR /publish
+COPY --from=build-env /publish .
+ENTRYPOINT ["dotnet", "myWebApp.dll"]
