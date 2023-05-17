@@ -1,3 +1,4 @@
+// using BusinessApi;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
@@ -23,7 +24,23 @@ builder.Services.AddAuthentication()
     .AddIdentityServerJwt();
 
 builder.Services.AddControllersWithViews();
+
+// //Updating Program.cs to Use MySQL and the BusinessApiContext
+// builder.Services.AddDbContext<BusinessApiContext>(
+//                     DbContextOptions => DbContextOptions
+//                     .UseMySql(
+//                         builder.Configuration["ConnectionStrings:DefaultConnection"],
+//                         ServerVersion.AutoDetect(builder.Configuration["ConnectionStrings:DefaultConnection"]
+//                         )
+//                     )
+// );
+
 builder.Services.AddRazorPages();
+
+// //      an implementation of Swagger documentation:
+// // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// builder.Services.AddEndpointsApiExplorer();
+// builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
