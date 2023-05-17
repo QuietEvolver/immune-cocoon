@@ -24,7 +24,7 @@
 
 
 # ENTRYPOINT ["dotnet", "out/csharp.dll"]
-FROM mcr.microsoft.com/dotnet/sdk:6.0 as build-env
+FROM mcr.microsoft.com/dotnet/sdk:6.0 as build
 WORKDIR /app
 # Learn more about the "WORKDIR" Dockerfile command.
 
@@ -35,5 +35,5 @@ RUN dotnet publish -c Release -o /publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 as runtime
 WORKDIR /publish
-COPY --from=build-env /publish .
+COPY --from=build /publish .
 ENTRYPOINT ["dotnet", "csharp.dll"]
