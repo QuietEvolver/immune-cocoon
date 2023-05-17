@@ -2,15 +2,18 @@
 # https://github.com/dotnet/dotnet-docker/blob/main/samples/README.md
 # MS: https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows
 
-# FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
+## Calvin: ORIG
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+# FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
 # WORKDIR /source
 WORKDIR /App
 
 # copy csproj and restore as distinct layers
 # COPY *.csproj .
 # RUN dotnet restore --use-current-runtime
-
+## Calvin: ORIG
+COPY *.csproj ./
+RUN dotnet restore
 # copy and publish app and libraries
 # COPY . .
 COPY . ./
@@ -32,7 +35,9 @@ RUN dotnet publish -c Release -o out
 # MS: Build runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /App
-COPY --from=build-env /App/out .
+# COPY --from=build-env /App/out .
+## Calvin: ORIG
+COPY --from=build /App/out .
 ENTRYPOINT ["dotnet", "DotNet.Docker.dll"]
 
 ##
