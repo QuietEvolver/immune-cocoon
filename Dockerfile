@@ -12,4 +12,4 @@ WORKDIR /app
 COPY --from=build /app/build ./ClientApp
 COPY . ./
 RUN dotnet publish -c Release -o out
-ENTRYPOINT ["dotnet", "out/YourBackendApp.dll"]
+ENTRYPOINT ["dotnet", "out/csharp.dll"]
