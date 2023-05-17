@@ -16,7 +16,7 @@ COPY *.csproj ./
 # RUN dotnet restore
 # # copy and publish app and libraries
 # # COPY . .
-# COPY . ./
+COPY . ./
 # RUN dotnet publish --use-current-runtime --self-contained false --no-restore -o /app
 # MS: Restore as distinct layers
 RUN dotnet restore
@@ -38,7 +38,7 @@ WORKDIR /App
 # COPY --from=build-env /App/out .
 ## Calvin: ORIG
 COPY --from=build /App/out .
-ENTRYPOINT ["dotnet", "DotNet.Docker.dll"]
+ENTRYPOINT ["dotnet", "csharp.dll"]
 
 ##
 # Stage 1: Build the React app
