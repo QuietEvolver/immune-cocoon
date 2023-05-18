@@ -8,7 +8,6 @@ public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
     {
-        // "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         "None", "None/Low", "Low", "Low/Medium", "Medium/Low", "Medium", "Medium/High", "High", "High/Severe", "Severe"
     };
 

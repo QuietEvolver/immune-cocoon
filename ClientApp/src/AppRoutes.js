@@ -25,11 +25,7 @@ const AppRoutes = [
   {
     path: '/edit',
     element: <Edit />
-  }//,
-  // {
-  //   path: '/delete',
-  //   element: <Delete />
-  // }
+  }
 ];
 
 export default AppRoutes;

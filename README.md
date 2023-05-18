@@ -5,7 +5,7 @@
 
 #### By Vera Weikel 
 
-#### This is a project to build an Authenticated Web Application using ASP .Net, MVC, Identity, and EF Core databases.
+#### This is a project to build a Web Application using ASP .Net, MVC, Identity, and database.
 
 ## SetUp
 Open your terminal and clone this [repo](https://github.com/QuietEvolver/immune-cocoon.git) to desired local folder.

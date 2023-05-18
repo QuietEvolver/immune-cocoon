@@ -37,60 +37,7 @@ export class Home extends Component {
           </span>
         </p>
         <br />
-        <ul>
-          {/* <li><a href='http://localhost:5133'>5133:local host</a> cretaceous w swagger.html <a href='http://localhost:7222/index.html'>lc/7222:C# w swagger only</a> server-side <a href='http://localhost:7222'>code</a></li> */}
-          <li>
-            <a href="http://localhost:5155">5155:local host</a> Business API w
-            swagger.html
-            <a href="https://localhost:7222/"> https:lc/7222:C# w swagger</a>
-            server-side PAGINATION
-            <a href="https://localhost:7222/index.html">swagger code</a>
-          </li>
-          <li>
-            <a href="https://localhost:7261/weatherforecast">
-              
-              Forecast fetch: https/7261
-            </a>
-            and <a href="https://localhost:7261/weatherforecast">C#</a> MS for
-            cross-platform server-side code
-          </li>
-
-          trying this: 
-        <li> <a href="http://localhost:5201">5201:local host</a> Business API w5201
-            swagger.html
-            <a href="https://localhost:7261/"> https:lc/7222:C# w swagger</a>
-            server-side PAGINATION
-            <a href="https://localhost:7261/index.html">swagger code</a>
-          </li>
-          <li>
-            <a href="https://localhost:7261/weatherforecast">
-              
-              Forecast fetch: https/7261
-            </a>
-            and <a href="https://localhost:7261/weatherforecast">C#</a> MS for
-            cross-platform server-side code
-          </li>
-
-          <br />
-
-          <p>At components, sitrs are served from API.CONTROLLER:</p>
-          <li>
-            <a href="https://localhost:44484/">1: </a> basic
-          </li>
-          <li>
-            <a href="https://localhost:44484/create">2: </a> create
-          </li>
-          <li>
-            <a href="https://localhost:44484/">3: </a> read
-          </li>
-          {/* <li>
-            <a href="https://localhost:44484/edit">4: </a> update edit
-          </li> */}
-          {/* <li>
-            <a href="https://localhost:44484/edit">5: </a> delete
-          </li> */}
-        </ul>
-
+        
         <h4> From our partners:</h4>
         <div>
           <a href="https://www.linkedin.com/in/tracystuckrath?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACyGBMB-m-4NYg0deaSK3h31ZHSMOmyImc&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed_hashtag%3Bq0uln6q%2BRkyJ%2Bo6DaOzC1A%3D%3D">
