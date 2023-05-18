@@ -29,8 +29,8 @@ To run the Client side, navigate to the ClientApp folder and type:
 * .Net 6 SDK
 * EFCore
 * ASP.Net
-* Razor
-* Blazor
+* Render
+* Railway
 * Identity
 
 ## Goals/Objectives
