@@ -31,6 +31,7 @@ To run the Client side, navigate to the ClientApp folder and type:
 * ASP.Net
 * Render
 * Railway
+* Docker
 * Identity
 
 ## Goals/Objectives
