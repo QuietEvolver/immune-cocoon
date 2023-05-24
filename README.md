@@ -33,6 +33,7 @@ To run the Client side, navigate to the ClientApp folder and type:
 * Railway
 * Docker
 * Identity
+* Postman
 
 ## Goals/Objectives
 
@@ -40,7 +41,7 @@ This project shows how to connect an ASP.NET Core MVC project to a MySQL databas
 
 ## Description
 
-This project uses Identity in an ASP.NET Core MVC project to authenticate users. This project contains a one-to-many relationship between `Treat` and `Flavors`. 
+This project uses Identity ASP.NET Core with a ReactJS user interface. 
 
 ## How To Run This Project
 
