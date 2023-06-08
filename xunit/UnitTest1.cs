@@ -1,4 +1,4 @@
-// namespace xunittesting;
+namespace xunittesting;
 
 // public class UnitTest1
 // {
