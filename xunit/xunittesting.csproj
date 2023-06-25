@@ -1,5 +1,5 @@
 <!-- <Project Sdk="Microsoft.NET.Sdk">
-
+Remember to use [FACTs]
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
