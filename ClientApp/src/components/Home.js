@@ -95,7 +95,7 @@ export class Home extends Component {
         </div>
 
         <div>SISTER SITES: <a
-            href="https://www.aaaai.org/">The American Academy of Allergy, Asthma & Immunology (AAAAI) </a></div>
+            href="https://www.aaaai.org/"  target="_blank">The American Academy of Allergy, Asthma & Immunology (AAAAI) </a></div>
       </div>
     );
   }
