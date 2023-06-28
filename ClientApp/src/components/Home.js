@@ -59,7 +59,7 @@ export class Home extends Component {
           , who is passionate about promoting restaurants that cater to people
           with food restrictions and allergies. As founder and CEO of
           <a
-            href="https://www.linkedin.com/company/findmymeal/"
+            href="https://www.linkedin.com/company/findmymeal/"  target="_blank"
             data-attribute-index="5"
             data-entity-type="MINI_COMPANY"
           >
