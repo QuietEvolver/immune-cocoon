@@ -50,7 +50,7 @@ export class Home extends Component {
           <br />
           On the show, Tracy speaks with
           <a
-            href="https://www.linkedin.com/in/ACoAACO8nOkBZc3ijFmRr2t0VBykSpwjPmoJUmI"
+            href="https://www.linkedin.com/in/ACoAACO8nOkBZc3ijFmRr2t0VBykSpwjPmoJUmI"  target="_blank"
             data-attribute-index="3"
             data-entity-type="MINI_PROFILE"
           >
