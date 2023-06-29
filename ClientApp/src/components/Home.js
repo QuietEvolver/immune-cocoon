@@ -50,7 +50,7 @@ export class Home extends Component {
           <br />
           On the show, Tracy speaks with
           <a
-            href="https://www.linkedin.com/in/ACoAACO8nOkBZc3ijFmRr2t0VBykSpwjPmoJUmI"  target="_blank"
+            href="https://www.linkedin.com/in/ACoAACO8nOkBZc3ijFmRr2t0VBykSpwjPmoJUmI"  target="_blank" rel="noopener noreferrer" 
             data-attribute-index="3"
             data-entity-type="MINI_PROFILE"
           >
@@ -59,7 +59,7 @@ export class Home extends Component {
           , who is passionate about promoting restaurants that cater to people
           with food restrictions and allergies. As founder and CEO of
           <a
-            href="https://www.linkedin.com/company/findmymeal/"  target="_blank"
+            href="https://www.linkedin.com/company/findmymeal/"  target="_blank" rel="noopener noreferrer" 
             data-attribute-index="5"
             data-entity-type="MINI_COMPANY"
           >
