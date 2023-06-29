@@ -48,23 +48,17 @@ export class Home extends Component {
           Awareness Month.
           <br />
           <br />
-          On the show, Tracy speaks with
-          <a
+          On the show, Tracy speaks with <a
             href="https://www.linkedin.com/in/ACoAACO8nOkBZc3ijFmRr2t0VBykSpwjPmoJUmI"  target="_blank" rel="noopener noreferrer" 
             data-attribute-index="3"
             data-entity-type="MINI_PROFILE"
-          >
-             Kayla King
-          </a>
+          > Kayla King</a>
           , who is passionate about promoting restaurants that cater to people
-          with food restrictions and allergies. As founder and CEO of
-          <a
+          with food restrictions and allergies. As founder and CEO of <a
             href="https://www.linkedin.com/company/findmymeal/"  target="_blank" rel="noopener noreferrer" 
             data-attribute-index="5"
             data-entity-type="MINI_COMPANY"
-          >
-             MyMeal
-          </a>
+          > MyMeal</a>
           , she is revolutionizing the way people with food allergies, celiac
           disease, and restrictive diets eat out.
           <br />
