@@ -40,7 +40,7 @@ export class Home extends Component {
         
         <h4> From our partners:</h4>
         <div>
-          <a href="https://www.linkedin.com/in/tracystuckrath?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACyGBMB-m-4NYg0deaSK3h31ZHSMOmyImc&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed_hashtag%3Bq0uln6q%2BRkyJ%2Bo6DaOzC1A%3D%3D"  target="_blank">
+          <a href="https://www.linkedin.com/in/tracystuckrath?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACyGBMB-m-4NYg0deaSK3h31ZHSMOmyImc&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed_hashtag%3Bq0uln6q%2BRkyJ%2Bo6DaOzC1A%3D%3D" target="_blank" rel="noopener noreferrer">
             Tracy Stuckrath
           </a>
           , a food and allergy expert, is excited to share the latest episode of
@@ -95,7 +95,7 @@ export class Home extends Component {
         </div>
 
         <div>SISTER SITES: <a
-            href="https://www.aaaai.org/"  target="_blank">The American Academy of Allergy, Asthma & Immunology (AAAAI) </a></div>
+            href="https://www.aaaai.org/"  target="_blank" rel="noopener noreferrer">The American Academy of Allergy, Asthma & Immunology (AAAAI) </a></div>
       </div>
     );
   }
