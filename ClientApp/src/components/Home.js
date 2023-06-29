@@ -54,7 +54,7 @@ export class Home extends Component {
             data-attribute-index="3"
             data-entity-type="MINI_PROFILE"
           >
-            Kayla King
+             Kayla King
           </a>
           , who is passionate about promoting restaurants that cater to people
           with food restrictions and allergies. As founder and CEO of
@@ -63,7 +63,7 @@ export class Home extends Component {
             data-attribute-index="5"
             data-entity-type="MINI_COMPANY"
           >
-            MyMeal
+             MyMeal
           </a>
           , she is revolutionizing the way people with food allergies, celiac
           disease, and restrictive diets eat out.
