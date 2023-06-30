@@ -79,6 +79,8 @@ export class Create extends Component {
               <label>
                 Describe yearsInBusiness (reaction):
                 <br />
+                {/* // Describe yearsInBusiness (reaction)
+    console.log("Type: event.target.type.value: ", e.target.type.value); */}
                 <textarea name="yearsInBusiness" />
               </label>
               <br />
