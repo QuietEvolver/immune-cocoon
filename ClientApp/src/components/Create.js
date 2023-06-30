@@ -77,7 +77,7 @@ export class Create extends Component {
               </label>
               <br />
               <label>
-                Describe yearsInBusiness (reaction):
+                Describe/years in business/ add memo (reaction):
                 <br />
                 {/* // Describe yearsInBusiness (reaction)
     console.log("Type: event.target.type.value: ", e.target.type.value); */}
