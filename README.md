@@ -11,9 +11,13 @@
 Open your terminal and clone this [repo](https://github.com/QuietEvolver/immune-cocoon.git) to desired local folder.
 Navigate to root file. 
 To run the Serverside, stay in the folder and type: 
+```
   $ dotnet run
+```
 To run the Client side, navigate to the ClientApp folder and type: 
+```
   $ npm run start
+```
 
 ## Technologies Used
 <!-- * $ dotnet add Standard.AI.OpenAI ( C# ) -->
@@ -34,14 +38,15 @@ To run the Client side, navigate to the ClientApp folder and type:
 * Docker
 * Identity
 * Postman
-
-## Goals/Objectives
-
-This project shows how to connect an ASP.NET Core MVC project to a MySQL database using [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/).
+* Figma
 
 ## Description
 
 This project uses Identity ASP.NET Core with a ReactJS user interface. 
+
+## Goals/Objectives
+
+This project shows how to connect an ASP.NET Core MVC project to a MySQL database using [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/).
 
 ## How To Run This Project
 
