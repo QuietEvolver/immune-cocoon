@@ -42,7 +42,7 @@ To run the Client side, navigate to the ClientApp folder and type:
 
 ## Description
 
-This project uses Identity ASP.NET Core with a ReactJS user interface. 
+This C# web app project uses Identity ASP.NET Core with a ReactJS user interface. 
 
 ## Goals/Objectives
 
@@ -50,10 +50,12 @@ This project shows how to connect an ASP.NET Core MVC project to a MySQL databas
 
 ## How To Run This Project
 
-If you have not already, install the `dotnet-ef` tool by running the following command in your terminal:
+If you have not already, install the .NET Entity Framework tool(s) by running the following command in your terminal:
 
 ```
-dotnet tool install --global dotnet-ef --version 6.0.0
+dotnet tool install --global 
+
+dotnet-ef --version 6.0.0
 ```
 
 ### Set Up and Run Project
