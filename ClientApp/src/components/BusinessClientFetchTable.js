@@ -35,16 +35,17 @@ export class BusinessClientFetchTable extends Component {
             <th>Name</th>
             <th>Type</th>
             <th>Number of Allergies</th>
+            {/* <th>Notes</th> */}
           </tr>
         </thead>
         <tbody>
-          {this.state.businessClients.map(business =>
-            <tr onClick={ () => this.setState({selectedBusinessClient: business})} 
-            key={business.businessId}>
-              <td>{business.businessId}</td>
-              <td>{business.name}</td>
-              <td>{business.type}</td>
-              <td>{business.yearsInBusiness}</td>
+          {this.state.businessClients.map(businessClient =>
+            <tr onClick={ () => this.setState({selectedBusinessClient: businessClient})} 
+            key={businessClient.businessClientId}>
+              <td>{businessClient.businessClientId}</td>
+              <td>{businessClient.name}</td>
+              <td>{businessClient.type}</td>
+              <td>{businessClient.yearsInBusiness}</td>
             </tr>
           )}
         </tbody>
