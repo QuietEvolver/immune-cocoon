@@ -45,7 +45,7 @@ export class BusinessClientFetchTable extends Component {
               <td>{businessClient.businessClientId}</td>
               <td>{businessClient.name}</td>
               <td>{businessClient.type}</td>
-              <td>{businessClient.yearsInBusiness}</td>
+              <td>{businessClient.numberOfAllergies}</td> {/* FKA: <th>businessClient.yearsInBusiness</th> */}
             </tr>
           )}
         </tbody>
