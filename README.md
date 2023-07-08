@@ -18,7 +18,11 @@ To run the Client side, navigate to the ClientApp folder and type:
 ```
   $ npm run start
 ```
+## User Flow
 
+![Business BDD](/Users/veraweikel/Desktop/2023Epicodus/capstone/csharp/ClientApp/src/components/figma-user-flow.jpeg)
+
+![Business BDD](https://github.com/QuietEvolver/immune-cocoon/main/figma-user-flow.jpeg?raw=true)
 ## Technologies Used
 <!-- * $ dotnet add Standard.AI.OpenAI ( C# ) -->
 * Proprietary API
