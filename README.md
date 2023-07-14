@@ -20,9 +20,8 @@ To run the Client side, navigate to the ClientApp folder and type:
 ```
 ## User Flow
 
-![Business BDD](/Users/veraweikel/Desktop/2023Epicodus/capstone/csharp/ClientApp/src/components/figma-user-flow.jpeg)
+![Business BDD](ClientApp/src/components/figma-user-flow.jpeg "figma-user-flow")
 
-![Business BDD]('figma-user-flow.jpeg')
 ## Technologies Used
 <!-- * $ dotnet add Standard.AI.OpenAI ( C# ) -->
 * Proprietary API
