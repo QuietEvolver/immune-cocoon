@@ -24,7 +24,6 @@ To run the Client side, navigate to the ClientApp folder and type:
 
 ## Technologies Used
 <!-- * $ dotnet add Standard.AI.OpenAI ( C# ) -->
-* Proprietary API
 * Javascript
 * Pagination
 * Swagger
@@ -49,7 +48,7 @@ This C# web app project uses Identity ASP.NET Core with a ReactJS user interface
 
 ## Goals/Objectives
 
-This project shows how to connect an ASP.NET Core MVC project to a MySQL database using [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/).
+This app helps clients and businesses track individual allergies.
 
 ## How To Run This Project
 
