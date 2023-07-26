@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 // using Newtonsoft.Json;
 using BusinessApi;
+// TODO: integrate chat GPT
 
 namespace csharp.Controllers;
 
