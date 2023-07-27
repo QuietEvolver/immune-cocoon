@@ -1,7 +1,6 @@
 
 # Immune Cocoon 
 ## An Allergen & Immunology Log
-### Confidence in Comfort
 
 #### By Vera Weikel 
 
